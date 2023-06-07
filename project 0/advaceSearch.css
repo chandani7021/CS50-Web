@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+    display:-moz-inline-box;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+h1{
+    font-size:xx-large;
+    color: red;
+    margin: 0px 0px 0px 20px;
+}
+input{
+    font-size: 14px;
+    color: #bdc1c6;
+}
+
+label{
+    margin: 0px 0px 0px 20px
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    color: black;
+}
+.navLink {
+    display: flex;
+    width: 30%;
+    padding-left: 90%;
+  }
+.navLink li{
+    list-style: none;
+}
+.navLink a {
+    color: black;
+    letter-spacing: 3px;
+    font-size: 14px;
+    padding: 14px 16px;
+  }
+form{
+    margin-top: 0em;
+    align-items: center;
+    display:inline-flexbox;
+    
+}
+
+input[type=text] {
+    width: 30%;
+    text-align: left;
+	height: 25px;
+    margin: 0px 0px 0px 20px;
+    border-width: 1px;
+    border-radius: 1px;
+    border-color: #d9d9d9;;
+    background-color: #FFFFFF;
+    padding: 1px 8px;
+}
+input[type=text]:hover{
+	border-color: blue;
+}
+input[type=text]:focus{
+	outline-color: blue;
+}
+
+input[type=submit]{
+    background-color: #4d90fe;
+    text-align: center;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 1px ;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+}
+
+input[type=submit]:hover{
+    border: none;
+	background-color: #1d4ddc;
+}
